@@ -37,14 +37,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://burgandco.sn'),
+  metadataBase: new URL('https://Grab.sn'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Grab - Restaurant Burgers Gourmet à Dakar',
     description: 'Découvrez Grab, le restaurant de burgers gourmet à Ngor, Dakar. Savourez nos burgers artisanaux, nos grillades premium et nos accompagnements frais.',
-    url: 'https://burgandco.sn',
+    url: 'https://Grab.sn',
     siteName: 'Grab',
     images: [
       {
@@ -83,7 +83,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "Grab",
-  "image": "https://burgandco.sn/logo.png",
+  "image": "https://Grab.sn/logo.png",
   "description": "Restaurant de burgers gourmet et grillades premium à Ngor, Dakar",
   "address": {
     "@type": "PostalAddress",
@@ -97,14 +97,14 @@ const structuredData = {
     "latitude": 14.748555,
     "longitude": -17.507719
   },
-  "url": "https://burgandco.sn",
+  "url": "https://Grab.sn",
   "telephone": "+221773512197",
   "priceRange": "$$",
   "servesCuisine": ["Burgers", "Grillades", "Fast Food"],
   "openingHours": "Mo-Su 08:30-02:00",
   "sameAs": [
-    "https://facebook.com/burgandco",
-    "https://instagram.com/burgandco"
+    "https://facebook.com/Grab",
+    "https://instagram.com/Grab"
   ]
 };
 

@@ -36,7 +36,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://facebook.com/burgandco" 
+                href="https://facebook.com/Grab" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110"
@@ -45,7 +45,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faFacebook} className="h-6 w-6" />
               </a>
               <a 
-                href="https://instagram.com/burgandco" 
+                href="https://instagram.com/Grab" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110"
@@ -117,11 +117,11 @@ const Footer = () => {
                 WhatsApp
               </a>
               <a 
-                href="mailto:contact@burgandco.sn"
+                href="mailto:contact@Grab.sn"
                 className="flex items-center text-gray-300 hover:text-primary transition-colors"
               >
                 <FontAwesomeIcon icon={faEnvelope} className="h-4 w-4 mr-3" />
-                contact@burgandco.sn
+                contact@Grab.sn
               </a>
               <p className="flex items-start text-gray-300">
                 <FontAwesomeIcon icon={faLocationDot} className="h-4 w-4 mr-3 mt-1" />

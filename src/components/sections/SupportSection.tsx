@@ -48,7 +48,7 @@ export const SupportSection = () => {
             <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-lg hover:shadow-xl transition-all duration-300 hover:transform hover:scale-105">
               <div className="flex justify-center gap-6 mb-6">
                 <a
-                  href="https://facebook.com/burgandco"
+                  href="https://facebook.com/Grab"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-[#1877F2] transition-colors transform hover:scale-110"
@@ -57,7 +57,7 @@ export const SupportSection = () => {
                   <FontAwesomeIcon icon={faFacebook} className="h-8 w-8" />
                 </a>
                 <a
-                  href="https://instagram.com/burgandco"
+                  href="https://instagram.com/Grab"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-[#E4405F] transition-colors transform hover:scale-110"
