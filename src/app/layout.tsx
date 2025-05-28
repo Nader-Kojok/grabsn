@@ -37,21 +37,22 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://Grab.sn'),
+  metadataBase: new URL('https://grabsn.vercel.app'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'Grab - Restaurant Burgers Gourmet à Dakar',
     description: 'Découvrez Grab, le restaurant de burgers gourmet à Ngor, Dakar. Savourez nos burgers artisanaux, nos grillades premium et nos accompagnements frais.',
-    url: 'https://Grab.sn',
+    url: 'https://grabsn.vercel.app',
     siteName: 'Grab',
     images: [
       {
-        url: '/og-image.png',
+        url: 'https://grabsn.vercel.app/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Grab - Restaurant Burgers Gourmet',
+        type: 'image/png',
       },
     ],
     locale: 'fr_FR',
@@ -61,7 +62,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Grab - Restaurant Burgers Gourmet à Dakar',
     description: 'Découvrez Grab, le restaurant de burgers gourmet à Ngor, Dakar.',
-    images: ['/og-image.png'],
+    images: ['https://grabsn.vercel.app/og-image.png'],
   },
   robots: {
     index: true,
@@ -83,7 +84,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "Restaurant",
   "name": "Grab",
-  "image": "https://Grab.sn/logo.png",
+  "image": "https://grabsn.vercel.app/logo.png",
   "description": "Restaurant de burgers gourmet et grillades premium à Ngor, Dakar",
   "address": {
     "@type": "PostalAddress",
@@ -97,14 +98,14 @@ const structuredData = {
     "latitude": 14.748555,
     "longitude": -17.507719
   },
-  "url": "https://Grab.sn",
+  "url": "https://grabsn.vercel.app",
   "telephone": "+221773512197",
   "priceRange": "$$",
   "servesCuisine": ["Burgers", "Grillades", "Fast Food"],
   "openingHours": "Mo-Su 08:30-02:00",
   "sameAs": [
-    "https://facebook.com/Grab",
-    "https://instagram.com/Grab"
+    "https://facebook.com/grab",
+    "https://instagram.com/grab"
   ]
 };
 
